@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Preke } from 'src/app/models/preke';
+//import { Nuotrauka } from 'src/app/img';
 
 @Component({
   selector: 'app-parduotuve',
@@ -10,9 +11,9 @@ export class ParduotuveComponent implements OnInit {
   public prekes: Preke[] = [];
 
   constructor() {
-    this.prekes.push(new Preke('tabure', 15));
-    this.prekes.push(new Preke('stalas', 25));
-    this.prekes.push(new Preke('uslanelis', 10));
+    this.prekes.push(new Preke('Taburete', 15, 'assets/img/taburete.jpg'));
+    this.prekes.push(new Preke('Stalas', 25, 'assets/img/stalas.jpg'));
+    this.prekes.push(new Preke('Uslanelis', 10, 'assets/img/suoliukas.jpg'));
   }
 
   ngOnInit(): void {

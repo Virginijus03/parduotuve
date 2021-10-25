@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,AAAA,CACP,MAAM,CAAE,KAAK,CAEhB",
+    "sources": [
+        "parduotuve.component.scss"
+    ],
+    "names": [],
+    "file": "parduotuve.component.min.css"
+}
